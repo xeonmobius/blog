@@ -163,8 +163,8 @@ const about: About = {
     title: "Education",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "University of Toronto",
+        description: <>Studied Pharmacy.</>,
       },
       {
         name: "Build the Future",
