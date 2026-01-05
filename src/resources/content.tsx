@@ -2,10 +2,10 @@ import { About, Blog, Gallery, Home, Newsletter, Person, Social, Work } from "@/
 import { Line, Row, Text } from "@once-ui-system/core";
 
 const person: Person = {
-  firstName: "Selene",
-  lastName: "Yu",
-  name: `Selene Yu`,
-  role: "Design Engineer",
+  firstName: "Shannon",
+  lastName: "Chowdhury",
+  name: `Shannon Chowdhury`,
+  role: "Product Manager",
   avatar: "/images/avatar.jpg",
   email: "example@gmail.com",
   location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
@@ -76,8 +76,12 @@ const home: Home = {
   },
   subline: (
     <>
-    I'm Selene, a design engineer at <Text as="span" size="xl" weight="strong">ONCE UI</Text>, where I craft intuitive <br /> user experiences. After hours, I build my own projects.
-</>
+      I'm Shannon, a product manager at{" "}
+      <Text as="span" size="xl" weight="strong">
+        ONCE UI
+      </Text>
+      , where I craft intuitive <br /> user experiences. After hours, I build my own projects.
+    </>
   ),
 };
 
@@ -102,9 +106,9 @@ const about: About = {
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Shannon is a Jakarta-based product manager with a passion for transforming complex
+        challenges into simple, elegant design solutions. Her work spans digital interfaces,
+        interactive experiences, and the convergence of design and technology.
       </>
     ),
   },
@@ -115,7 +119,7 @@ const about: About = {
       {
         company: "FLY",
         timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        role: "Senior Product Manager",
         achievements: [
           <>
             Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
@@ -174,9 +178,7 @@ const about: About = {
     skills: [
       {
         title: "Figma",
-        description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
+        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
         tags: [
           {
             name: "Figma",
@@ -201,9 +203,7 @@ const about: About = {
       },
       {
         title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
-        ),
+        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
         tags: [
           {
             name: "JavaScript",
