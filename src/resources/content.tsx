@@ -34,18 +34,18 @@ const social: Social = [
     link: "https://www.linkedin.com/in/shannonchowdhury/",
     essential: true,
   },
-  {
-    name: "Instagram",
-    icon: "instagram",
-    link: "https://www.instagram.com/once_ui/",
-    essential: false,
-  },
-  {
-    name: "Threads",
-    icon: "threads",
-    link: "https://www.threads.com/@once_ui",
-    essential: true,
-  },
+  //   {
+  //     name: "Instagram",
+  //     icon: "instagram",
+  //     link: "https://www.instagram.com/once_ui/",
+  //     essential: false,
+  //   },
+  //   {
+  //     name: "Threads",
+  //     icon: "threads",
+  //     link: "https://www.threads.com/@once_ui",
+  //     essential: true,
+  //   },
   {
     name: "Email",
     icon: "email",
