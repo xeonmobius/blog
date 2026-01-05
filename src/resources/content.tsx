@@ -163,6 +163,10 @@ const about: About = {
     title: "Education",
     institutions: [
       {
+        name: "Western Governors University",
+        description: <>Studied Master of Business Administration (MBA).</>,
+      },
+      {
         name: "University of Toronto",
         description: <>Studied Pharmacy.</>,
       },
