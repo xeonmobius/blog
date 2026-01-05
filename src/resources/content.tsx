@@ -78,7 +78,7 @@ const home: Home = {
     <>
       I'm Shannon, a product manager at{" "}
       <Text as="span" size="xl" weight="strong">
-        ONCE UI
+        Loblaws
       </Text>
       , where I craft intuitive <br /> user experiences. After hours, I build my own projects.
     </>
