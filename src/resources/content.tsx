@@ -166,10 +166,6 @@ const about: About = {
         name: "University of Toronto",
         description: <>Studied Pharmacy.</>,
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
     ],
   },
   technical: {
