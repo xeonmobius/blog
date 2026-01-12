@@ -60,19 +60,19 @@ const home: Home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Transforming healthcare experiences through product innovation</>,
   featured: {
     display: true,
     title: (
       <Row gap="12" vertical="center">
-        <strong className="ml-4">Once UI</strong>{" "}
+        <strong className="ml-4">Prescription Digitization</strong>{" "}
         <Line background="brand-alpha-strong" vert height="20" />
         <Text marginRight="4" onBackground="brand-medium">
           Featured work
         </Text>
       </Row>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/prescription-data-entry-digitization",
   },
   subline: (
     <>
@@ -98,17 +98,26 @@ const about: About = {
     display: true,
   },
   calendar: {
-    display: true,
-    link: "https://cal.com",
+    display: false,
+    link: "",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Shannon is a Jakarta-based product manager with a passion for transforming complex
-        challenges into simple, elegant design solutions. Her work spans digital interfaces,
-        interactive experiences, and the convergence of design and technology.
+        Shannon is a Clinical Product Manager based in Toronto with a passion for solving real-world
+        healthcare challenges. With a PharmD background, he brings a unique clinical perspective to
+        product development—using his expertise to identify and fix the issues that matter most to
+        patients and clinicians. His approach is rooted in user research, conducting in-depth
+        interviews with clinicians to understand their pain points firsthand. He works closely with
+        cross-functional teams including regulatory subject matter experts, QA, and developers to
+        translate these insights into actionable solutions. Through IT tickets, surveys, and direct
+        feedback, Shannon ensures every product decision is data-informed. Currently building
+        Healthcare Clinical Products at Loblaws, Shannon is driven by the opportunity to solve
+        pharmacists' problems and see the positive impact on patient care. He thrives on bridging
+        business requirements with technical feasibility, finding new and innovative ways to address
+        complex healthcare challenges.
       </>
     ),
   },
@@ -117,41 +126,62 @@ const about: About = {
     title: "Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Product Manager",
+        company: "Loblaws",
+        timeframe: "October 2021 - Present",
+        role: "Product Owner / Product Manager, Pharmacy",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Executed product roadmap for prescription data entry and fax digitization across 1,400+
+            stores, delivering 30% improvement in user satisfaction.
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Led integration of PC Optimum apps with Pharmacy Software, reducing wait times by 20%
+            and increasing NPS score by 10%.
+          </>,
+          <>
+            Maintained tactical product backlog of 80+ User Stories, improving development team
+            velocity by 10 story points and ensuring 95% on-time delivery.
+          </>,
+          <>
+            Conducted customer research with 20 pharmacy stores nationwide, uncovering critical
+            workflow problems that increased user satisfaction by 40%.
+          </>,
+          <>
+            Implemented AI-powered document processing solutions, resulting in 50% faster processing
+            times.
+          </>,
+          <>
+            Led UAT efforts on 4 cross-functional teams, achieving 95% user acceptance rate and
+            reducing post-launch defects by 60%.
+          </>,
+          <>
+            Ensured HIPAA/PHIPA compliance for patient data protection, achieving 99.9% compliance
+            rate with zero security breaches.
+          </>,
+          <>
+            Developed reports tracking Key Success Metrics for specialty prescription levels,
+            achieving 9% increase in Rx volume and improved patient adherence.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Roche Pharmaceutical",
+        timeframe: "September 2019 - June 2020",
+        role: "Business Analyst",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Led business analysis to create a UIPath bot with 100% accuracy, saving 3 months of
+            manual work annually.
+          </>,
+          <>Delivered first POC of the ROI of using RPA in the company.</>,
+          <>
+            Partnered with global stakeholders to deliver 10+ features for automated document
+            processing, accelerating time-to-market by 6 sprints.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Enhanced data integrity for regulatory submissions by designing structured, automated
+            workflows for health authorities.
           </>,
         ],
         images: [],
@@ -173,60 +203,104 @@ const about: About = {
     ],
   },
   technical: {
-    display: true, // set to false to hide this section
-    title: "Technical skills",
+    display: true,
+    title: "Skills",
     skills: [
       {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
+        title: "Product Management",
+        description: (
+          <>
+            Executing product roadmaps, managing backlogs, and delivering user-centered solutions
+            with measurable impact.
+          </>
+        ),
         tags: [
           {
-            name: "Figma",
-            icon: "figma",
-          },
-        ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Jira",
+            icon: "document",
           },
           {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "Roadmapping",
+            icon: "rocket",
+          },
+          {
+            name: "Agile",
+            icon: "document",
           },
         ],
+        images: [],
       },
       {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
+        title: "Leadership & Stakeholder Management",
+        description: (
+          <>
+            Leading cross-functional teams, managing stakeholders, and driving change across
+            organizations.
+          </>
+        ),
         tags: [
           {
-            name: "JavaScript",
-            icon: "javascript",
+            name: "Cross-functional Leadership",
+            icon: "person",
           },
           {
-            name: "Next.js",
-            icon: "nextjs",
+            name: "Stakeholder Management",
+            icon: "globe",
           },
           {
-            name: "Supabase",
-            icon: "supabase",
+            name: "Change Management",
+            icon: "rocket",
           },
         ],
-        // optional: leave the array empty if you don't want to display images
-        images: [
+        images: [],
+      },
+      {
+        title: "User Research & Analytics",
+        description: (
+          <>
+            Conducting customer research, tracking NPS and KPIs, and using data to inform product
+            decisions.
+          </>
+        ),
+        tags: [
           {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
+            name: "User Research",
+            icon: "eye",
+          },
+          {
+            name: "NPS Tracking",
+            icon: "document",
+          },
+          {
+            name: "Data Analysis",
+            icon: "document",
           },
         ],
+        images: [],
+      },
+      {
+        title: "Process Improvement & Innovation",
+        description: (
+          <>
+            Driving innovation through RPA, automation, and continuous process improvement
+            initiatives.
+          </>
+        ),
+        tags: [
+          {
+            name: "RPA",
+            icon: "rocket",
+          },
+          {
+            name: "Process Improvement",
+            icon: "document",
+          },
+          {
+            name: "Innovation",
+            icon: "rocket",
+          },
+        ],
+        images: [],
       },
     ],
   },
@@ -244,8 +318,8 @@ const blog: Blog = {
 const work: Work = {
   path: "/work",
   label: "Work",
-  title: `Projects – ${person.name}`,
-  description: `Design and dev projects by ${person.name}`,
+  title: `Case Studies – ${person.name}`,
+  description: `Product management projects and case studies`,
   // Create new project pages by adding a new .mdx file to app/blog/posts
   // All projects will be listed on the /home and /work routes
 };

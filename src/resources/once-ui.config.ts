@@ -21,7 +21,7 @@ const routes: RoutesConfig = {
   "/about": true,
   "/work": true,
   "/blog": true,
-  "/gallery": true,
+  "/gallery": false,
 };
 
 const display: DisplayConfig = {
@@ -187,17 +187,15 @@ const mailchimp: MailchimpConfig = {
 // default schema data
 const schema: SchemaConfig = {
   logo: "",
-  type: "Organization",
-  name: "Once UI",
-  description: home.description,
-  email: "lorant@once-ui.com",
+  type: "Person",
+  name: "Shannon Chowdhury",
+  description: "Product Manager specializing in e-commerce and user experience",
+  email: "shannon.chow@live.com",
 };
 
 // social links
 const sameAs: SameAsConfig = {
-  //   threads: "https://www.threads.com/@once_ui",
   linkedin: "https://www.linkedin.com/in/shannonchowdhury/",
-  discord: "https://discord.com/invite/5EyAQ4eNdS",
 };
 
 // social sharing configuration for blog posts
